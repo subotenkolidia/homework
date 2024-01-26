@@ -1,0 +1,30 @@
+h3{
+    color: red;
+}
+#id1{
+    color: orange;
+}
+.example_3{
+    color: yellow;
+}
+.class1.class2{
+    color: greenyellow;
+}
+p b{
+    color: lightblue;
+}
+div>p{
+    color: blue;
+}
+div~button{
+    color: blueviolet;
+}
+button+p{
+    color: aquamarine;
+}
+main h4{
+    color: darksalmon;
+}
+[title]{
+    color: darkcyan;
+}
