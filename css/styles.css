@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.float-box{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #C4C4C4;
+}
+.float-row{
+    background-color: #E6E6E6;
+    margin:50px ;
+}
+.float-item-1{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+    font-size: 64px;
+    padding-top: 63px;
+}
+.float-item-2{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: right;
+    font-size: 64px;
+    padding-top: 63px;
+}
+.section{
+    text-align: right;
+    text-align: left;
+}
+
+  .float-item-wrapper {
+    float: right;
+  }
+  .float-item-3{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    font-size: 64px;
+    float: left;
+    padding-top: 63px;
+}
+.float-item-4{
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    font-size: 36px;
+    margin-right: 15px;
+    padding-top: 31px;
+}
+.float-item-5{
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    font-size: 36px;
+    margin-right: 15px;
+    padding-top: 31px;
+}
+.float-item-6{
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    font-size: 36px;
+    margin-right: 15px;
+    padding-top: 31px;
+}
+.float-item-7{
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    font-size: 36px;
+    padding-top: 31px;
+}
+.float-item-8{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    font-size: 64px;
+    float: left;
+    margin-right: 15px;
+    padding-top: 63px;
+}
+.float-item-9{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    font-size: 64px;
+    float: left;
+    padding-top: 63px;
+}
+.float-item-10{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    font-size: 64px;
+    float: left;
+    margin-right: 15px;
+    padding-top: 63px;
+}
+.float-item-11{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    font-size: 64px;
+    float: left;
+    padding-top: 63px;
+}
