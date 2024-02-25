@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Реєстрація</a>
+            <span>&nbsp;</span>
+            <a href="./authorization.html">Авторизація</a>
+            <span>&nbsp;</span>
+            <a href="./search.html">Пошук</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <form action="https://fom.in.ua/echo" name="auth" method="get" autocomplete="on">
+                   <h2 class="form-title">Пошук</h2>
+                    <div class="input-row">
+                       <label class="form-label" for="body">Тип кузова</label>
+                       <input class="form-input" type="text" name="body" id="body" minlength="2">
+                    </div>
+                   <div class="input-row">
+                       <label class="form-label" for="brand">Марка авто</label>
+                       <input class="form-input" type="text" name="brand" id="brand" minlength="2">
+                    </div>
+                    <div class="input-row">
+                        <label class="form-label" for="country">Країна виробник</label>
+                        <input class="form-input" type="text" name="country" id="country" minlength="2">
+                     </div>
+                     <div class="input-row">
+                        <p>Ціна</p>
+                        <label>
+                            <input type="radio" name="price" value="0-5000$">
+                            <span>0-5000$</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="price" value="5000-10000$">
+                            <span>5000-10000$</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="price" value="10000-15000$">
+                            <span>10000-15000$</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="price" value="15000-20000$">
+                            <span>15000-20000$</span>
+                        </label>
+                     </div>
+                     <div class="input-row">
+                        <p>Рік випуску</p>
+                        <label>
+                            <input type="radio" name="age" value="1990-2000">
+                            <span>1990-2000</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="age" value="2000-2010">
+                            <span>2000-2010</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="age" value="2010-2020">
+                            <span>2010-2020</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="age" value="2020-2024">
+                            <span>2020-2024</span>
+                        </label>
+                     </div>
+                     <div class="input-row">
+                        <p>Стан</p>
+                        <label>
+                            <input type="checkbox" name="state1" value="Бита">
+                            <span>Бита</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="state2" value="У кредиті">
+                            <span>У кредиті</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="state3" value="Нерозмитнена">
+                            <span>Нерозмитнена</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="state4" value="Ідеальна">
+                            <span>Ідеальна</span>
+                        </label>
+                     </div>
+                     <div class="input-row">
+                        <label class="form-label" for="fuel">Тип палива</label>
+                        <input class="form-input" type="text" name="fuel" id="fuel" minlength="2">
+                     </div>
+                     <div class="input-row">
+                        <label class="form-label" for="transmission">Тип коробки передач</label>
+                        <input class="form-input" type="text" name="transmission" id="transmission" minlength="2">
+                     </div>
+                     <div class="input-row">
+                        <label class="form-label" for="color">Колір</label>
+                        <input class="form-input" type="text" name="color" id="color" minlength="2">
+                     </div>
+                     <div class="input-row">
+                        <label class="form-label" for="comfort">Комфорт</label>
+                        <select name="comfort" id="comfort">
+                            <option value="hatch">Люк</option>
+                            <option value="leather-interior">Шкіряний салон</option>
+                        </select>
+                     </div>
+                    <div class="form-button">
+                         <button type="submit">Пошук</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

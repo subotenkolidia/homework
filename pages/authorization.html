@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Реєстрація</a>
+            <span>&nbsp;</span>
+            <a href="./authorization.html">Авторизація</a>
+            <span>&nbsp;</span>
+            <a href="./search.html">Пошук</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <form action="https://fom.in.ua/echo" name="auth" method="get" autocomplete="on">
+                   <h2 class="form-title">Авторизація</h2>
+                    <div class="input-row">
+                       <label class="form-label" for="email">Email</label>
+                       <input class="form-input" type="email" name="email" id="email" minlength="2" placeholder="Input email">
+                    </div>
+                   <div class="input-row">
+                       <label class="form-label" for="password">Пароль</label>
+                       <input class="form-input" type="text" name="password" id="password" minlength="2" placeholder="Input password">
+                    </div>
+                    <div class="form-button">
+                        <button type="submit">Вхід</button>
+                   </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
