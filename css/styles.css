@@ -1,13 +1,13 @@
 
 @font-face {
   font-family: 'GraphikLCG-Semibold';
-  src: url(./GraphikLCG-Semibold.woff) format('woff'),
-       url(./GraphikLCG-Semibold.woff2) format('woff2');
+  src: url(../fonts/GraphikLCG-Semibold.woff) format('woff'),
+       url(../fonts/GraphikLCG-Semibold.woff2) format('woff2');
       }
 @font-face {
   font-family: 'GraphikLCG-Regular';
-  src: url(./GraphikLCG-Regular.woff) format('woff'),
-       url(./GraphikLCG-Regular.woff2) format('woff2');
+  src: url(../fonts/GraphikLCG-Regular.woff) format('woff'),
+       url(../fonts/GraphikLCG-Regular.woff2) format('woff2');
 }
 *{
   margin: 0;
@@ -38,15 +38,16 @@ body{
 p{
   font-size: 20px;
   color: #000000;
-  /*font-family: 'GraphikLCG-Semibold';*/
 }
 h2{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
 
 }
 h3{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 25px;
   line-height: 35px;
@@ -64,9 +65,13 @@ h3{
   gap: 57px;
 }
 .menu-item-link{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+}
+.menu-item-link:hover{
+text-decoration: underline;
 }
 .button{
   color: #000000;
@@ -75,6 +80,7 @@ h3{
   text-align: center;
 }
 .sub-button{
+  font-family: 'GraphikLCG-Semibold';
   border: 1px hsla(0, 0%, 0%, 0.5) solid;
   background-color: #FFFFFF;
   font-weight: 600;
@@ -88,7 +94,6 @@ h3{
 .buttons{
   display: flex;
   gap: 10px;
-
 }
 .nav-links{
   align-items: center;
@@ -97,6 +102,7 @@ h3{
 }
 /*MAIN*/
 .title{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 65px;
   line-height: 70px;
@@ -106,6 +112,7 @@ h3{
   margin-bottom: 51px;
 }
 .sub-title{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 25px;
   line-height: 35px;
@@ -120,12 +127,15 @@ h3{
   text-align: center;
 }
 .button-orange-2{
-  color: #FFFFFF;
   background-color: #FF6336 !important;
   padding-left: 41px;
   padding-right: 41px;
 }
+.button-white{
+color: #FFFFFF;
+}
 .sub-button-2{
+  font-family: 'GraphikLCG-Semibold';
   border: 1px hsla(0, 0%, 0%, 0.5) solid;
   background-color: #FFFFFF;
   font-weight: 600;
@@ -138,6 +148,7 @@ h3{
     margin-bottom: 25px;
   }
   .days{
+    font-family: 'GraphikLCG-Regular';
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -180,6 +191,7 @@ h3{
     margin-top: 151px;
   }
 .sub-advantages{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   line-height: 30px;
   color: #000000;
@@ -187,10 +199,14 @@ h3{
   margin-bottom: 30px;
 }
 .start-now{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: #000000;
+}
+.start-now:hover{
+  text-decoration: underline;
 }
 .advantages-right{
   display: flex;
@@ -209,6 +225,15 @@ h3{
 }
 .advantages-second{
   margin-top: 250px;
+}
+.link-program:hover{
+  text-decoration: underline;
+}
+.tasks:hover{
+  text-decoration: underline;
+}
+.ensure-link:hover{
+  text-decoration: underline;
 }
 /*SECTION-5*/
 .section-4{
@@ -237,6 +262,7 @@ h3{
   padding-top: 26px;
 }
 .lokalize-text{
+  font-family: 'GraphikLCG-Regular';
   padding-top: 20px;
   font-weight: 400;
   font-size: 18px;
@@ -245,6 +271,7 @@ h3{
 }
 /*SECTION-6*/
 .team-title{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -253,14 +280,14 @@ h3{
   margin-bottom: 92px;
 }
 .team-sub-title{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
   color: #000000;
- /* display: flex;
-  align-items: center ;*/
 }
 .team-text{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -270,6 +297,7 @@ h3{
   padding-bottom: 25px;
 }
 .team-link{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -302,6 +330,7 @@ text-align: center ;
   background-color: #C9E8F2;
 }
 .revolut-quote{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
@@ -311,6 +340,7 @@ text-align: center ;
   padding-bottom: 23px;
 }
 .revolut-autor{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -331,6 +361,7 @@ text-align: center ;
  background-color: #DABC98; 
 }
 .sub-menegment-text{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 35px;
   line-height: 50px;
@@ -363,6 +394,7 @@ text-align: center ;
   text-align: center;
 }
 .integrate-title{
+  font-family: 'GraphikLCG-Semibold';
   text-align: center;
   font-weight: 600;
   font-size: 65px;
@@ -380,6 +412,7 @@ text-align: center ;
   justify-content: center;
 }
 .sub-integrate-text{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -387,6 +420,7 @@ text-align: center ;
   padding-bottom: 25px;
 }
 .integrate-button-link{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 16px;
   line-height: 60px;
@@ -413,6 +447,7 @@ text-align: center ;
   text-align: center;
 }
 .easy-title{
+  font-family: 'GraphikLCG-Semibold';
   text-align: center;
   font-weight: 600;
   font-size: 65px;
@@ -426,6 +461,7 @@ text-align: center ;
   justify-content: center;
 }
 .sub-easy-text{
+  font-family: 'GraphikLCG-Regular';
   text-align: center;
   font-weight: 400;
   font-size: 20px;
@@ -435,6 +471,7 @@ text-align: center ;
   padding-bottom: 54px;
 }
 .easy-button-link{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 17px;
   line-height: 60px;
@@ -448,10 +485,8 @@ text-align: center ;
   margin-bottom: 130px;
 }
 /*SECTION-9*/
-.section-8{
-  background-color: #EEEEEE;
-}
 .case-title{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 40px;
   line-height: 50px;
@@ -467,6 +502,7 @@ text-align: center ;
   padding-right: 140px;
 }
 .sub-case-text{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -475,6 +511,7 @@ text-align: center ;
   padding-bottom: 15px;
 }
 .read{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -482,6 +519,7 @@ text-align: center ;
   padding-bottom: 95px;
 }
 .sitemap__title{
+  font-family: 'GraphikLCG-Semibold';
   font-weight: 600;
   font-size: 20px;
   line-height: 25px;
@@ -489,10 +527,14 @@ text-align: center ;
   padding-bottom: 21px;
 }
 .sitemap__list{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
   color: #000000;
+}
+.sitemap__list:hover{
+  text-decoration: underline;
 }
 .sitemap__liste{
   max-width: 187px;
@@ -506,27 +548,24 @@ padding-top: 97px;
 }
 .studies{
   display: flex;
-  
 }
 .sitemap-1{
   display: flex;
   column-gap: 34px;
-  
 }
 /*FOOTER*/
 footer{
   background-color: #EEEEEE;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1.5px black solid;
-  padding-top: 48px;
   padding-bottom: 48px;
+  padding-left: 75px;
+  padding-right: 75px;
   }
 .footer-2{
   display: flex;
   gap: 14px;
 }
 .footer-text{
+  font-family: 'GraphikLCG-Regular';
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -534,6 +573,7 @@ footer{
   max-width: 301px;
 }
 .info{
+  font-family: 'GraphikLCG-Regular';
 padding-right:96px ;
 font-weight: 400;
   font-size: 12px;
@@ -543,8 +583,21 @@ font-weight: 400;
   flex-direction: column;
   gap: 2px;
 }
+.info-text{
+    font-size: 12px;
+}
 .footer-logo{
   padding-left: 5px;
+}
+.footer-box{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px black solid;
+  padding-top: 48px;
+}
+button:hover{
+  box-shadow: 3px 3px 10px 0px #000;
+  transform: translateY(-3px)
 }
 
 /*font-family: 'GraphikLCG-Regular';*/
